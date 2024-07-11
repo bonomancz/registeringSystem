@@ -1,0 +1,47 @@
+	*{font-family: Century Gothic, gothic, CenturyGothic, AppleGothic;}
+	@font-face {font-family: gothic;}
+	html, body {margin: 0px; padding: 0px;}
+	body {font-size: 18px; color: #FFFFFF; text-align: center; background-color: #363636;}
+    A, A:active, A:visited {color: #FFFFFF; text-decoration: none;}
+	A:hover {color: #787878;}
+
+	#bodyFrame {border: 0px solid yellow; width: auto; min-width: 1100px;}
+     /*MAIN PARTS LEFT, RIGHT FRAME*/
+	#leftFrame {float: left; height: 85%; width: 300px; border: 0px solid white;}
+	#rightFrame {float: left; height: 85%; width: 70%; border: 0px solid yellow; overflow: hidden;}
+    /*INNER LEFT TOP, LEFT BOTTOM, MAINSTAGE*/
+	#topFrame, #bottomFrame, #mainStage, #topPart {display: block;}
+	#topFrame {height: 90px; border: 0px solid fuchsia;}
+	#topPart {
+	            width: 90%; height: 90px;
+	            border: 0px solid blue; margin: 25px 0px 0px 50px;
+	            background-color: #127ba4; background-image: url("../images/regSystem.png"); background-repeat: no-repeat;
+	}
+	#bottomFrame {border: 0px solid violet; background-image: none;}
+	#mainStage{border: 0px solid red;}
+
+	/*MAIN MENU*/
+	#leftMenu, #mainMenuLnk1, #mainMenuLnk2, #mainMenuLnk3, #mainMenuLnk4, .upperMenuPart, .underMenuPart {
+		display: block; float: none; padding: 0px; margin: 0px; margin-bottom: 1px; border: 0px solid yellow; width: 200px; height: 50px; background: rgba(0, 0, 0, 0.7);
+	}
+	#mainMenuLnk1, #mainMenuLnk2, #mainMenuLnk3, #mainMenuLnk4 {padding-top: 30px; padding-left: 50px; text-align: left;}
+	#mainMenuLnk1:hover, #mainMenuLnk2:hover, #mainMenuLnk3:hover, #mainMenuLnk4:hover {background-color: #212121;}
+	.upperMenuPart, .underMenuPart, .underMenuSubPart {background-color: #0e6182; width: 250px; margin: 0px;}
+	.underMenuSubPart {height: 60%;}
+	#leftMenu {height: 287px; border: 0px solid blue; background: none; margin: 0px 0px 0px 50px;}
+
+	/*OUTPUT TABLE*/
+    .tbMain, .tbRow, .tbCell, .tbHead, .tbHeadRow {display: block; float: left; padding: 0px; margin: 0px; border: 0px solid red;}
+	.tbMain {float: none; width: 800px; margin: 50px 0px 0px 18%; overflow: hidden;}
+	.tbRow, .tbHeadRow {width: 800px;}
+	.tbCell, .tbHead {text-align: left; min-width: 115px; border: 0px solid white; margin: 0px; padding: 3px; font-size: 15px;}
+	.tbHead, .tbHeadRow {background-color: #797979;}
+
+	/*FORMS*/
+	.formMainGroup, .formLabel, .formInput {display: block; float: left; padding: 0px; margin: 0px; border: 0px solid red; text-align: left;}
+	.formLabel, .formInput {width: 180px; height: 30px;}
+	.formLabel {width: 100px;}
+	.formMainGroup {width: 300px; height: 140px; margin: 60px 0px 0px 30%;}
+
+	/*Credits*/
+	.creditsGroup {display: block; float: left; padding: 0px; margin: 100px 0px 0px 32%; border: 0px solid red;
