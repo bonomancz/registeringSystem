@@ -1,6 +1,6 @@
 REGISTERING SYSTEM
-_______________________
-User registering system
+__________________________________
+Java Maven User registering system
 
 1. contains REST interface
 2. JDBC database connector
